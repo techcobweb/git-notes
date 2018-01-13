@@ -1,9 +1,10 @@
 # Cherry-picking git commits
+
 Here is [the official documentation of the git cherry pick command](https://git-scm.com/docs/git-cherry-pick)
 
 Here is [a good article explains things well](http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
 
-Thought I'd try an experiment to prove it works as I thought.
+Thought I'd try an experiment to prove it works as I thought (which it did of course).
 
 I created a branch called `dirty_branch_with_mixed_commits` and added some commits:
 
@@ -15,13 +16,13 @@ Author: mike-cobbett <my-email>
 Date:   Wed Nov 15 09:27:32 2017 +0000
 
     Another change to json. This time flow.json
-    
+
 commit b3e5f910a8f6e994664086bf2a18c7e822f77441
 Author: mike-cobbett <my-email>
 Date:   Wed Nov 15 09:26:11 2017 +0000
 
     a change to myScalaClass.scala
-    
+
 commit 847baefdcf3e95927134319e25f021f75ce216c0
 Author: mike-cobbett <my-email>
 Date:   Wed Nov 15 09:24:00 2017 +0000

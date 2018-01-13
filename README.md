@@ -1,6 +1,4 @@
 # git-notes
-Notes and observations about git so I can find them again later
+Notes and observations about git so I can share them and find them again later
 
 - [`git-cherry-pick`](./git-cherry-pick.md)
-
-
